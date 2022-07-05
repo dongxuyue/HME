@@ -1,0 +1,20 @@
+# 作者：买旭旭不用券
+zipfile_path = 'data.zip'
+test_year = '2014'
+batch_size = 8
+num_workers = 0
+d_model = 256
+growth_rate = 24
+num_layers = 16
+nhead = 8
+num_decoder_layers = 3
+dim_feedforward = 1024
+dropout = 0.3
+beam_size = 10
+max_len = 200
+alpha = 1.0
+learning_rate = 1.0
+patience = 20
+check_val_every_n_epoch = 2
+max_epochs = 300
+seed_everything = 7
